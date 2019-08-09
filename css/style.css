@@ -8,6 +8,33 @@ body, html{
   color:#666;
 }
 
+img.logo{
+  width: 3em;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+  float: left;
+}
+.main-nav {
+  display: flex;
+  float: right;
+  list-style: none;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+}
+li {
+  padding-right: 3em;
+}
+
+header {
+  min-height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  url(/img/first.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+}
+
 .pimg1, .pimg2, .pimg3{
   position:relative;
   opacity:0.70;
